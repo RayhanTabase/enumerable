@@ -14,6 +14,7 @@ end
 
 list = MyList.new(1, 2, 3, 4)
 
+# Tests add puts / p infront to view results
 list.all? { |e| e < 5 }
 
 list.all? { |e| e > 5 }
