@@ -9,6 +9,7 @@ class MyList
 
   def each(&block)
     return unless block_given?
+    
     @list.each(&block)
   end
 end
